@@ -14,6 +14,7 @@
 		DE13C0E42B29868D00186440 /* MessengerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13C0E32B29868D00186440 /* MessengerAppTests.swift */; };
 		DE13C0EE2B29868D00186440 /* MessengerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13C0ED2B29868D00186440 /* MessengerAppUITests.swift */; };
 		DE13C0F02B29868D00186440 /* MessengerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13C0EF2B29868D00186440 /* MessengerAppUITestsLaunchTests.swift */; };
+		DE13C1052B29896500186440 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13C1042B29896500186440 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DE13C0E92B29868D00186440 /* MessengerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE13C0ED2B29868D00186440 /* MessengerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerAppUITests.swift; sourceTree = "<group>"; };
 		DE13C0EF2B29868D00186440 /* MessengerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE13C1042B29896500186440 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,11 @@
 		DE13C0D12B29868B00186440 /* MessengerApp */ = {
 			isa = PBXGroup;
 			children = (
-				DE13C0D22B29868B00186440 /* MessengerAppApp.swift */,
-				DE13C0D42B29868B00186440 /* ContentView.swift */,
+				DE13C1002B2988B700186440 /* App */,
+				DE13C0FF2B2988B500186440 /* Core */,
+				DE13C0FD2B2988B200186440 /* Extentions */,
+				DE13C0FE2B2988B300186440 /* Model */,
+				DE13C0FC2B2988AF00186440 /* Service */,
 				DE13C0D62B29868C00186440 /* Assets.xcassets */,
 				DE13C0D82B29868C00186440 /* Preview Content */,
 			);
@@ -125,6 +130,68 @@
 				DE13C0EF2B29868D00186440 /* MessengerAppUITestsLaunchTests.swift */,
 			);
 			path = MessengerAppUITests;
+			sourceTree = "<group>";
+		};
+		DE13C0FC2B2988AF00186440 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DE13C0FD2B2988B200186440 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		DE13C0FE2B2988B300186440 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE13C0FF2B2988B500186440 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DE13C1022B29893400186440 /* Authentication */,
+				DE13C1012B29893200186440 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DE13C1002B2988B700186440 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DE13C0D22B29868B00186440 /* MessengerAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DE13C1012B29893200186440 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DE13C0D42B29868B00186440 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		DE13C1022B29893400186440 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DE13C1032B29895200186440 /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		DE13C1032B29895200186440 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE13C1042B29896500186440 /* LoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE13C1052B29896500186440 /* LoginView.swift in Sources */,
 				DE13C0D52B29868B00186440 /* ContentView.swift in Sources */,
 				DE13C0D32B29868B00186440 /* MessengerAppApp.swift in Sources */,
 			);
