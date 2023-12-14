@@ -15,6 +15,7 @@
 		DE13C0EE2B29868D00186440 /* MessengerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13C0ED2B29868D00186440 /* MessengerAppUITests.swift */; };
 		DE13C0F02B29868D00186440 /* MessengerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13C0EF2B29868D00186440 /* MessengerAppUITestsLaunchTests.swift */; };
 		DE13C1052B29896500186440 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13C1042B29896500186440 /* LoginView.swift */; };
+		DE713E652B2B4800006FFE83 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE713E642B2B4800006FFE83 /* RegistrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		DE13C0ED2B29868D00186440 /* MessengerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerAppUITests.swift; sourceTree = "<group>"; };
 		DE13C0EF2B29868D00186440 /* MessengerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE13C1042B29896500186440 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DE713E642B2B4800006FFE83 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				DE13C1042B29896500186440 /* LoginView.swift */,
+				DE713E642B2B4800006FFE83 /* RegistrationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				DE13C1052B29896500186440 /* LoginView.swift in Sources */,
 				DE13C0D52B29868B00186440 /* ContentView.swift in Sources */,
 				DE13C0D32B29868B00186440 /* MessengerAppApp.swift in Sources */,
+				DE713E652B2B4800006FFE83 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
