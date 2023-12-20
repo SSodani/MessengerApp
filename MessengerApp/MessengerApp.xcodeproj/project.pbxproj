@@ -16,6 +16,10 @@
 		DE13C0F02B29868D00186440 /* MessengerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13C0EF2B29868D00186440 /* MessengerAppUITestsLaunchTests.swift */; };
 		DE13C1052B29896500186440 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13C1042B29896500186440 /* LoginView.swift */; };
 		DE713E652B2B4800006FFE83 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE713E642B2B4800006FFE83 /* RegistrationView.swift */; };
+		DE713E6A2B2B4C32006FFE83 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE713E692B2B4C32006FFE83 /* InboxView.swift */; };
+		DE713E6F2B2B5133006FFE83 /* ActiveNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE713E6E2B2B5133006FFE83 /* ActiveNowView.swift */; };
+		DE713E712B2B6A1B006FFE83 /* InboxRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE713E702B2B6A1B006FFE83 /* InboxRowView.swift */; };
+		DEB4A61E2B2DE54E001F1570 /*  NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4A61D2B2DE54E001F1570 /*  NewMessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		DE13C0EF2B29868D00186440 /* MessengerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE13C1042B29896500186440 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DE713E642B2B4800006FFE83 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		DE713E692B2B4C32006FFE83 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		DE713E6E2B2B5133006FFE83 /* ActiveNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveNowView.swift; sourceTree = "<group>"; };
+		DE713E702B2B6A1B006FFE83 /* InboxRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxRowView.swift; sourceTree = "<group>"; };
+		DEB4A61D2B2DE54E001F1570 /*  NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " NewMessageView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +166,10 @@
 		DE13C0FF2B2988B500186440 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				DE713E6D2B2B5107006FFE83 /* ActiveNow */,
 				DE13C1022B29893400186440 /* Authentication */,
+				DE713E662B2B4BFB006FFE83 /* Inbox */,
+				DEB4A61C2B2DE521001F1570 /* NewMessage */,
 				DE13C1012B29893200186440 /* Root */,
 			);
 			path = Core;
@@ -195,6 +206,31 @@
 				DE713E642B2B4800006FFE83 /* RegistrationView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DE713E662B2B4BFB006FFE83 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				DE713E692B2B4C32006FFE83 /* InboxView.swift */,
+				DE713E702B2B6A1B006FFE83 /* InboxRowView.swift */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		DE713E6D2B2B5107006FFE83 /* ActiveNow */ = {
+			isa = PBXGroup;
+			children = (
+				DE713E6E2B2B5133006FFE83 /* ActiveNowView.swift */,
+			);
+			path = ActiveNow;
+			sourceTree = "<group>";
+		};
+		DEB4A61C2B2DE521001F1570 /* NewMessage */ = {
+			isa = PBXGroup;
+			children = (
+				DEB4A61D2B2DE54E001F1570 /*  NewMessageView.swift */,
+			);
+			path = NewMessage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,8 +363,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE713E712B2B6A1B006FFE83 /* InboxRowView.swift in Sources */,
 				DE13C1052B29896500186440 /* LoginView.swift in Sources */,
+				DEB4A61E2B2DE54E001F1570 /*  NewMessageView.swift in Sources */,
 				DE13C0D52B29868B00186440 /* ContentView.swift in Sources */,
+				DE713E6A2B2B4C32006FFE83 /* InboxView.swift in Sources */,
+				DE713E6F2B2B5133006FFE83 /* ActiveNowView.swift in Sources */,
 				DE13C0D32B29868B00186440 /* MessengerAppApp.swift in Sources */,
 				DE713E652B2B4800006FFE83 /* RegistrationView.swift in Sources */,
 			);
